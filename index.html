@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="ananth.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+    <!-- Title -->
+    <title>Anantha Kumaran</title>
+    <link rel="shortcut icon" type="image/jpg" href="My logoP.svg">
+
+    <!--  Meta Tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="Anantha Kumaran, ananthakumaran, Ananthakumaran, Designer, Infinite youngman, MBA, Ergonomist">
+    <meta name="author" content="Anantha Kumaran">
+    
+    <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+    </script>
+</head>
+<body class="backg" scroll="no" style="overflow: hidden" onload="startTime()">
+    <!-- The sidebar -->
+    <div class="sidebar">
+        <img src="f3.png" class="slogo" alt="...">
+        <a href="#myintro">Home</a>
+        <a href="#myabout">About</a>
+        <a href="#mycert">Certifications</a>
+        <a href="#myskills">Skill Set</a>
+        <a href="#myconnect">Connect</a>
+        <p id="footnote">created by ananthakumaran</p>
+    </div>
+    <div id="myintro">
+        <div class="intro">
+            <h1 class="myname">Anantha Kumaran <small class="text-muted">MBA</small></h1>
+            <h3 class="profess">Designer ♜ Ergonomist</h3>
+        </div>
+    </div>
+    <div id="myabout">
+        <div class="about">
+            <h1 class="aim">CAREER OBJECTIVE</h1>
+            <h3 class="aimdesc">To work for a growing organization, for learning different practices of it and give my best to it. To make a way where I can learn and apply my knowledge and skills and contribute to the growth of the organization, and grow parallel with it.</h3>
+        </div>
+    </div>
+    <div id="mycert">
+        <div class="cert">
+            <h1>CERTIFICATIONS</h1>
+            <div class="certi">
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Certified in Designing a Website">Web Design</button></h3>
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Certified in Python, Specialised in Data Science">Data Science Programmer</button></h3>
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Certified in Making the Workplace Productive and Efficent">Workplace Ergonomics</button></h3>
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Certified Marketer in Digital Aspects and knowledge">Digital Marketing</button></h3>
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Certified in Selling and Distributing of Products and services">Sales and Distribution</button></h3>
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Certified in Maintaing the Brand and its components">Brand Management</button></h3>
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Certified in Typing with 41 Words per Minute(WPM)">Typing</button></h3>
+                <h3><button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Certified in French Communication">Communicative French</button></h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <div id="myskills">
+        <div class="skills">
+            <h1 id="skillsname">SKILLS</h1> 
+            <div class="skilltab">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header p-0" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left p-3 rounded-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Personal Traits
+                      </button>
+                    </h2>
+                  </div>
+                
+                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <h3>Analytical Thinking</h3>
+                      <h3>Strong Communication</h3>
+                      <h3>Problem Solving</h3>
+                      <h3>Event Organizer</h3>
+                      <h3>Leadership</h3>
+                      <h3>Time Management</h3>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header p-0" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Technical Skills
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <h3>Media Editing</h3>
+                      <h3>Office Suites</h3>
+                      <h3>Computer Servicing</h3>
+                      <h3>Tableau</h3>
+                      <h3>Networking</h3>
+                      <h3>Linux</h3>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="myconnect">
+        <div class="mobile">
+            <div class="mobilein">
+                <div id="txt"></div>
+                <h3 id="note">My Social Media Handles</h3>
+                <div class="firstsocialicon">
+                  <button class="button button1"><img src="linkedin-flat.png" alt="" class="socialicon"></button>
+                  <button class="button button1"><img src="twitter-flat.png" alt="" class="socialicon"></button>
+                </div>
+                <div class="secondsocialicon">
+                  <button class="button button1"><img src="instagram-new-flat.png" alt="" class="socialicon"></button>
+                  <button class="button button1"><img src="facebook-flat.png" alt="" class="socialicon"></button>
+                </div>
+            </div>
+            <button class="homebutton"></button>
+        </div>
+    </div>  
+</body>

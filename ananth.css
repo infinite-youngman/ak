@@ -1,0 +1,247 @@
+body, html{height: 100%; width: 100%; color: white;}
+* {border: 0px; padding: 0px; margin: 0; color: white;}
+
+/* background 
+.backg{background-image: url("4k.png"); height: 100%; width: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}*/
+
+/* google fonts */
+
+
+/* Sidebar */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    background-color: #ef476f;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    padding-top: 3vw ;
+}
+.slogo{
+  width: 75%;
+  height: auto;
+  aspect-ratio: attr(width) / attr(height);
+  margin-bottom: 2vw;
+  padding-left: 20%;
+}
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 1vh;
+  margin-bottom: 3px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3vh;
+}
+/* Active/current link */
+.sidebar a.active {
+  background-color: #242424;
+  color: white;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  border: 5px solid #242424;
+  color: white;
+  border-radius: 50px;
+}
+#footnote{
+  position: absolute;
+  bottom: 8px;
+  left: 3vw;
+  font-size: 1vw;
+  opacity: 50%;
+  text-align: center;
+}
+
+#myintro{
+  margin-left: 20%;
+  /* The image used */
+  background-image: url('4k.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: 0%;
+}
+/* name */
+.myname{
+  color: white;
+}
+.profess{
+  color: white;
+}
+#myabout{
+  margin-left: 20%;
+  /* The image used */
+  background-image: url('4k.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about{
+  margin-left: 10vw;
+  padding-top: 30vh;
+  width: 40vw;
+  text-align: justify;
+}
+.aim{
+  color: white;
+}
+.aimdesc{
+  color: white;
+}
+#mycert{
+  margin-left: 20%;
+  /* The image used */
+  background-image: url('4k.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cert{
+  padding-top: 20vh;
+  vertical-align: middle;
+  padding-left: 10vw;
+}
+.certi{
+  padding-left: 5vw;
+}
+.btn-secondary{
+  background-color: #242424;
+}
+#myskills{
+  margin-left: 20%;
+  /* The image used */
+  background-image: url('4k.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills{
+  padding-top: 20vh;
+  vertical-align: middle;
+  padding-left: 5vw;
+  width: 40vw;
+}
+#skillsname {
+  text-align: center;
+}
+
+.card-body{
+  background-color: #242424;
+}
+/* Mobile */
+#myconnect{
+  margin-left: 20%;
+  /* The image used */
+  background-image: url('4k.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15vh;
+}
+.mobile{
+  margin-left: 15vw;
+  margin-right: 50vw;
+  align-content: center;
+  height: 500px;
+  width: 300px;
+  background-color: white;
+  border: 10px outset gold;
+  border-radius: 25px;
+}
+.homebutton{
+  width: 50px;
+  height: 50px;
+  border: 4px solid gold;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 0px;
+  margin-left: 120px;
+  margin-right: auto;
+  align-content: center;
+  position: absolute;
+}
+.mobilein{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  align-content: center;
+  height: 400px;
+  width: 270px;
+  background-color: white;
+  border: 2px solid black;
+  background-image: url("mobwal.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+#txt{
+  margin-left: 80px;
+  color: white;
+  font-size: xx-large;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.socialicon{
+  padding: 10px;
+
+}
+#note{
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+  text-align: center;
+ }
+
+
+.button1 {
+  background-color: transparent; 
+  color: black; 
+  border: 0px solid gold;
+  margin: 20px;  
+}
+
+.button1:hover {
+  background-color: gold;
+  color: white;
+  box-shadow: 0px 0px 7px 5px gold;
+}
